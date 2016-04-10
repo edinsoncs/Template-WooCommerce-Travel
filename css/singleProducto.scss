@@ -1,0 +1,127 @@
+.headerSingle {
+		background-color: white;
+		padding: 0.5em 1em;
+		margin: 0.5em 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.title {
+			font-weight: 400;
+		}
+	}
+
+.sectionSingle {
+	
+	.imgProducto {
+		position: relative;
+		.onsale {
+			position: absolute;
+		    background: #DE0000;
+		    color: white;
+		    padding: 1.3em 0.5em;
+		    border-radius: 50%;
+		    top: 50%;
+		    margin-top: -8em;
+		    left: 50%;
+		    margin-left: -37em;
+		}
+		.woocommerce-main-image {
+			img {
+				width: 1220px;
+				height: 280px;
+			}
+		}
+	}
+}
+.singleCont {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.singleProducto--Iz {
+	width: 65%;
+	background-color: $blanco;
+	border: 1px solid #dedede;
+	padding: 0.5em;
+}
+.singleProducto--De {
+	width: 26%;
+	background-color: $blanco;
+	border: 1px solid #dedede;
+	padding: 0.5em;
+	.precioSingle {
+		text-align: center;
+		padding: 0.5em 0;
+		.price {
+			del  {
+				color: #7B7979;
+				font-weight: 400;
+			}
+			ins  {
+				color: #DE0000;
+				font-weight: 700;
+				text-decoration: none;	
+				font-weight: 400;
+			}
+		}
+	}
+	.cart {
+		text-align: center;
+		padding: 0 0 1em 0;
+		border-bottom: 1px solid #dedede;
+		.buttonComprar {
+			background: linear-gradient(#1B95E0,#1B95E0,#1B95E0,#1B95E0);
+		    padding: 0.8em 2em;
+		    border: 1px solid #1887CB;
+		    width: 50%;
+		    margin: 0 auto;
+		    outline: medium none;
+		    color: white;
+		    border-radius: 5px;
+		    font-size: 1.2em;
+		    &:active {
+		    	background: linear-gradient(#2FAFFE, #1B95E0, #1B95E0, #1B95E0);
+		    }
+		}
+	}
+	.singleProducto--Header {
+		text-align: center;
+		margin: 0.5em 0 0 0;
+		.title {
+			font-weight: 400;
+			color: #7B7979;
+		}
+	}
+	.productInfo {
+		margin-top: 0.5em;
+		margin-bottom: 1em;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		.headerTitle, .descriptionTitle {
+			display: block;
+		}
+		.headerTitle {
+			color: #1B95E0;
+			text-transform: capitalize;
+			padding: 0;
+			border-bottom: 1px solid #1B95E0;
+			
+			&:before {
+				content: "-"
+			}
+		}
+		.descriptionTitle {
+			font-size: 0.9em;
+			color: #7B7979;
+			text-align: center;
+			margin: 0.2em 0 0.7em 0;
+		}
+	}
+}
+.summary div {
+	p {
+		font-size: 0.9em;
+		letter-spacing: 0.2px;
+	}
+}

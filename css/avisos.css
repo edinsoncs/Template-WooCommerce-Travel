@@ -1,0 +1,11 @@
+.avisos {
+  display: flex;
+}
+
+.avisos .avisos--Iz {
+  width: 70%;
+}
+
+.avisos .avisos--De {
+  width: 20%;
+}

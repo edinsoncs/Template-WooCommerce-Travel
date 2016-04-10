@@ -1,0 +1,34 @@
+.top {
+	margin: 1em 0;
+	.header--Top {
+		margin: 1em 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: $center;
+		.header--Top--Iz, .header--Top--De {
+			width: 30%;
+			height: 1px;
+			background: #dedede;
+			display: block;
+		}
+		.title {
+			font-weight: 400;
+			color: black;
+			width: 20%;	
+		}
+	}
+	.ul {
+		display: flex;
+		justify-content: space-between;
+		.list {
+			list-style-type: none;
+			display: inline-block;
+			background: #444444;
+			padding: 1em 3em;
+			i {
+				color: $blanco;
+				font-size: 2em;
+			}
+		}
+	}
+}

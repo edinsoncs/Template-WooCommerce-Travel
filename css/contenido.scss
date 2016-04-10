@@ -1,0 +1,63 @@
+.contenidos {
+	.header--Contenidos {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.header--Contenidos--Iz, .header--Contenidos--De {
+			width: 30%;
+			height: 1px;
+			background: #dedede;
+			display: block;
+		}
+		.title {
+			width: 23%;
+			color: black;
+			font-weight: 400;
+		}
+	}
+}
+.contenidoPaquetes {
+	display: flex;
+	justify-content: space-between;
+	margin: 1em 0;
+	flex-wrap: wrap;
+	.articles {
+		width: 320px;
+		position: relative;
+		margin: 0 0 1em 0;
+		.articles--Figure img {
+			display: block;
+			width: 100%;
+		}
+		.articles--Description {
+			background: #444444;
+			padding: 0.5em;
+			.title {
+				color: $blanco;
+				font-weight: 400;
+				font-size: 0.9em;
+				width: 90%;
+				margin: 0 auto;
+			}
+		}
+		.articles--Precio {
+			position: absolute;
+			top: 50%;
+			right: 0;
+			margin-top: -8.15em;
+			background-color: #E9513C;
+			padding: 0.2em 0.5em;
+			.title--Precio {
+				color: $blanco;
+			}
+		}
+		.articles--Time {
+			text-align: $center;
+			padding: 0.2em 0;
+			font-size: 0.9em;
+			.title {
+				color: #939393;
+			}
+		}
+	}
+}

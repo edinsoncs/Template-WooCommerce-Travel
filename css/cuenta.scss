@@ -1,0 +1,140 @@
+.myaccount-User {
+	padding: 1em 0;
+	border-bottom: 1px solid #B8B6B6;
+	.header--User {
+		background-color: white;
+		border: 1px solid #B8B6B6;
+		padding: 1em;
+		.description {
+			color: #5A5A5A;
+			a {
+				text-decoration: none;
+				color: #4E8AE7;
+				font-weight: 400;
+			}
+		}
+	}
+}
+.header--Pedidos {
+	background: linear-gradient(#fff, #D7D6D6);
+	margin: 1em 0 0 0;
+	border-bottom: 1px solid #9E9898;
+	.title {
+		font-weight: 400;
+		padding: 0.2em 0.5em;
+	}
+}
+.my_account_orders {
+	width: 100%;
+	background-color: $blanco;
+	thead {
+		width: 100%;
+	}
+	tbody {
+		tr {
+			width: 100%;
+			text-align: center;
+		}
+	}
+}
+
+.headerDirecciones {
+	margin:1em 0;
+	border-bottom: 1px solid #444444;
+	.title {
+		color:#444444;
+	}
+
+}
+.contAccount {
+	display: flex;
+	justify-content: space-between;
+	.contDiv {
+		    width: 20%;
+    background: white;
+    padding: 0.5em;
+    border: 1px solid #dedede;
+    margin: 0.5em 0 0 0;
+	}
+	.contDiv .title h3 {
+		font-weight: 400;
+    border-bottom: 1px solid #dedede;
+    padding: 0.5em;
+    color: #414141;
+    background: #DDDBDB;
+	}
+	.contDiv .title a {
+		text-decoration: none; 
+    		color: #6F8AE8;
+	}
+
+}
+.detallesCont {
+	width: 100%;
+	text-align: center;
+	padding: 1em 0;
+	background-color: $blanco;
+}
+.woocommerce {
+	form {
+		p {
+			label {
+			display: block;
+		    font-size: 0.9em;
+		    padding: 0.2em 0 0.5em 0;
+			font-weight: 700;
+			color: #434343;
+			}
+			input {
+				border: none;
+				padding: 0.4em 1em;
+				outline: medium none;
+				width: 50%;
+				color: #A6A4A4;
+				margin: 0 0 0.5em 0;
+			}
+			select {
+				border: none;
+				padding: 0.4em 1em;
+				outline: medium none;
+				width: 52%;
+				color: #A6A4A4;
+				margin: 0 0 0.5em 0;
+			}
+		}
+		p:last-child {
+			input {
+				background: #5B5B5B;
+				color: white;
+			}
+		}
+		fieldset {
+			width: 50%;
+			margin: 0 0 0.5em 0;
+		}
+	}
+}
+.woocommerce-error {
+	margin: 0.5em 0;
+	li {
+		list-style-type: none;
+		color: #DE0000;
+	}
+}
+/*Hacks*/
+.order {
+	font-size: 0.9em;
+}
+.order-number a {
+	text-decoration: none;
+    background: #424242;
+    color: white;
+    padding: 0.1em 0.2em;
+}
+.order-actions a {
+	color: #4E8AEA
+}
+.nobr {
+	color: #959090;
+	font-weight: 400;
+}

@@ -1,0 +1,90 @@
+.col2-set {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	border: 1px solid #dedede;
+	padding: 1em;
+	margin: 1em 0;
+	.col-1 {
+		width: 40%;
+		text-align: center;
+		h2 {
+			background: #454545;
+		    color: white;
+		    padding: 0.2em 0;
+		    font-weight: 400;
+		}
+		form {
+			    border: 1px solid #454545;
+			.form-row {
+				label {
+					padding: 0.5em 0 0.8em 0;
+				}
+				input[name='username'] {
+					border: 1px solid #454545;
+					width: 80%;
+				}
+				input[name='password'] {
+					border: 1px solid #454545;
+					width: 80%;
+				}
+				input[type='submit'] {
+						background: linear-gradient(#4E99CB,#4D7FA0);
+						padding: 0.5em 0;
+						color: white;
+					}
+				.inline {
+					input[type='checkbox'] {
+						padding: 0;
+						width: 2%;
+					}
+
+				}
+			}
+			.lost_password {
+					a {
+						color: #4D8AB3;
+					}
+				}
+		}
+	}
+	.col-2 {
+		width: 40%;
+		text-align: center;
+		h2 {
+			background: #454545;
+		    color: white;
+		    padding: 0.2em 0;
+		    font-weight: 400;
+		}
+		form {
+			    border: 1px solid #454545;
+			.form-row {
+				label {
+					padding: 0.5em 0 0.8em 0;
+				}
+				input[name='email'] {
+					border: 1px solid #454545;
+					width: 80%;
+				}
+				input[name='password'] {
+					border: 1px solid #454545;
+					width: 80%;
+				}
+				input[type='submit'] {
+						background: linear-gradient(#4E99CB,#4D7FA0);
+						padding: 0.5em 0;
+						color: white;
+					}
+			}
+			.lost_password {
+					a {
+						color: #4D8AB3;
+					}
+				}
+		}
+	}
+}
+.woocommerce-info {
+	display: none;
+}

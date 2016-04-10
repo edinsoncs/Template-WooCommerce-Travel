@@ -1,0 +1,40 @@
+.figure--Cover {
+	position: relative;
+	img {
+		width: 100%;
+		height: 250px;
+	}
+	.figurePage--Name {
+		position: absolute;
+	    top: 50%;
+	    background-color: rgba(255, 255, 255, 0.78);
+	    padding: 0.5em 2.5em;
+	    left: 0;
+	    margin-top: -2.5em; 
+	    .title {
+	    	font-weight: 400;
+	    }
+	}
+}
+.contentPage {
+	border: 5px solid #dedede;
+	.contentPage--Article {
+		margin: 0 0 2em 0;
+		.contentPage--Header {
+			background-color: #F8F3F3;
+		    text-align: center;
+		    padding: 1em;
+		}
+		.contentPage--Header .title {
+			font-size: 1.5em;
+			font-weight: 400;
+			color: #DE0000;
+		}
+		.contentPage--Description {
+			padding: 0.5em;
+			.description--Details {
+				color: #787474;
+			}
+		}
+	}
+}

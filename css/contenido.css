@@ -1,0 +1,16 @@
+.contenidos .header--Contenidos {
+  display: flex;
+}
+
+.contenidos .header--Contenidos .header--Contenidos--Iz, .contenidos .header--Contenidos .header--Contenidos--De {
+  width: 30%;
+  height: 1px;
+  background: #dedede;
+  display: block;
+}
+
+.contenidos .header--Contenidos .title {
+  width: 20%;
+  color: black;
+  font-weight: 400;
+}

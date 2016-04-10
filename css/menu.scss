@@ -1,0 +1,51 @@
+.menu {
+	background: linear-gradient(#484848,#444,#404040) ;
+	.menu--Cont {
+		display: flex;
+		width: 1220px;
+		margin: $cero auto;
+		justify-content: space-between;
+	}
+	.ul {
+		line-height: 50px;
+		.active {
+			list-style-type: none;
+			display: inline-block;
+			margin: 0 1em 0 0;
+			background-color: #343333;
+			padding: 0 1em;
+			a {
+				color: $blanco;
+				text-decoration: none;
+				font-size: 1em;
+			}
+		}
+		li {
+			list-style-type: none;
+			display: inline-block;
+			margin: 0 1em 0 0;
+			a {
+				color: $blanco;
+				text-decoration: none;
+				font-size: 1em;
+			}
+		}
+		.list {
+			list-style-type: none;
+			display: inline-block;
+			margin: 0 1em 0 0;
+			.link {
+				color: $blanco;
+				text-decoration: none;
+				font-size: 1em;
+			}
+
+		}
+	}
+	.ul:first-child {
+		width: 80%;
+	}
+	.ul:last-child {
+		width: 20%;
+	}
+}
